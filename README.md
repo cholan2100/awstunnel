@@ -33,6 +33,7 @@ Create SQS queues
 ```
 
 Setup environment variables
+IMPORTANT: fix SQS=INSERT_SQS_ID in sqs_env.sh, it should be something like 2789022051234 from above.
 ```
 source sqs_env.sh
 ```
